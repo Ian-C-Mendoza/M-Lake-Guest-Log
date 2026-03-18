@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { UserPlus, FileText, Settings, Waves } from "lucide-react";
-
+import MLogo from "@/assets/images/M.png"; // or './assets/images/M.png' – use @ alias if configured in vite.config.ts
 export function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-teal-50/30 flex items-center justify-center p-4 sm:p-6 lg:p-8">
@@ -16,7 +16,7 @@ export function Home() {
           <div className="relative inline-block mb-4 sm:mb-6">
             <div className="relative bg-white rounded-2xl sm:rounded-3xl shadow-lg sm:shadow-xl p-4 sm:p-6 lg:p-8 border border-slate-100">
               <img
-                src="src\app\components\image\M.png"
+                src={MLogo}
                 alt="M LakeHouse"
                 className="h-20 sm:h-28 lg:h-36 w-auto object-contain"
               />
