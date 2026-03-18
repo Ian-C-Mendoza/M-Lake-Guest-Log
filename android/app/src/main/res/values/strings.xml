@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<resources>
+    <string name="app_name">M Lake Guest Log</string>
+    <string name="title_activity_main">M Lake Guest Log</string>
+    <string name="package_name">com.guest.registration</string>
+    <string name="custom_url_scheme">com.guest.registration</string>
+</resources>
